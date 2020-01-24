@@ -1,0 +1,73 @@
+<html>
+<head>
+<title>contact us form</title>
+<script type="text/javascript">
+	
+	function fn1()
+			
+	{
+		var name=document.getElementById("fname").value;
+		var pno=document.getElementById("phone").value;
+		if(name=="")
+		{
+		alert("name can't be empty");
+			
+		}
+
+		else if(pno=="")
+		{
+		alert("phone can't be empty");
+			
+		}
+		else
+		{
+			alert("Thanks for  your message " +name+" we will get back to you shortly");
+		}
+	}
+</script>>
+<link rel="stylesheet" type="text/css" href="contact1.css">
+<style type="text/css">
+.img_allign
+{
+vertical-align: middle;
+}
+</style>
+</head>
+<body background="back7.jpg">
+
+<p class="Main" align="center"> Would Love To Hear From You</p> 
+<form>
+	<table align="center">
+		<tr>
+			<td>First Name</td>
+			<td><input type="Text" name="t1" id="fname">
+
+			</tr>
+			
+			<tr>
+			<td>Last Name</td>
+			<td><input type="Text" name="t1" id="lname">
+			</tr>
+			<br>
+			<tr>
+			<td>Phone</td>
+			<td><input type="Text" name="t1" id="phone">
+			</tr>
+
+			<tr>
+			<td>Email</td>
+			<td><input type="Text" name="t1" id="mail">
+			</tr>
+
+			<tr>
+				<td colspan="2" align="center">
+					<button onclick="fn1();">submit</button></td>
+			</tr>
+	</table>
+</form>
+
+<iframe  class="img_allign" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14007.421652471272!2d77.222229!3d28.6340952!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x76f28f2adbaaea68!2sAquGen%20Technologies!5e0!3m2!1sen!2sin!4v1579720925030!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<span><b>Call Here +91 9871399060<b></span>
+<span><b>Email Us At info@aqugen.com<b></span>
+</body>
+</html>

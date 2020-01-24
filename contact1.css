@@ -1,0 +1,20 @@
+.Main
+{
+	font-size: 90px;
+	animation: type 3s steps(27);
+	overflow:hidden;
+	white-space:nowrap;
+     width:27ch;
+     border-right: 4px solid black;
+}
+
+@keyframes type
+{
+	0% {
+		width:0ch;
+	}
+	
+	100% {
+		width:27ch;
+	}
+}

@@ -1,0 +1,27 @@
+.main{
+	background-image: url("25.jpg"); 
+}
+.p1
+{
+	color: #D35400;
+	font-size: 70px;
+text-align: center;
+}
+.p2
+{
+text-align: center;
+font-size: 30px
+}
+.p3
+{
+text-align: center;
+font-size: 30px
+}
+img
+{
+width: 40%;
+float:left;
+margin:1.66%;
+transition: 1s;
+animation-iteration-count: 5;
+}
